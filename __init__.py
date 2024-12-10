@@ -5,5 +5,5 @@ from .preprocessing import preprocessing
 from .tool import tool
 from .visualisation import visualisation
 
-# Expose these functions as part of the package
+# Expose these functions when "import *" is used
 __all__ = ['preprocessing', 'tool', 'visualisation']
