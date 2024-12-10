@@ -9,8 +9,7 @@ setup(
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
     url='https://github.com/ABHAYHBB/gQuant',
-    #packages=find_packages(),
-    packages=['gQuant'],
+    packages=find_packages(),
     install_requires=[
         'pandas',
         'matplotlib',
