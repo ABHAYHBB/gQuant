@@ -8,8 +8,9 @@ setup(
     description='A Python package for preprocessing, analysis, and visualization',
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
-    url='https://github.com/ABHAYHBB/gQuant.git',
-    packages=find_packages(),
+    url='https://github.com/ABHAYHBB/gQuant',
+    #packages=find_packages(),
+    packages=['gQuant'],
     install_requires=[
         'pandas',
         'matplotlib',
