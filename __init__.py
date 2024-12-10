@@ -1,5 +1,9 @@
 __version__ = '0.1.0'
 
-from .preprocessing import preprocess_data
-from .tool import run_tool
-from .visualization import visualize_results
+# Import the single function from each module
+from .preprocessing import preprocessing
+from .tool import tool
+from .visualisation import visualisation
+
+# Expose these functions as part of the package
+__all__ = ['preprocessing', 'tool', 'visualisation']
